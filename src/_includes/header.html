@@ -1,15 +1,15 @@
 <header class="header">
   <div class="container">
     <div class="logo left">
-      <img src="/assets/images/logo-big@2x.png">
+      <img src="assets/images/logo-big@2x.png">
     </div>
     <nav class="right">
       <ul>
         <li>
-          <a href="/" {% if page.url == '/index.html' %}class="current"{% endif %}>Delivery API</a>
+          <a href="{{ site.baseurl }}" {% if page.url == '/index.html' %}class="current"{% endif %}>Delivery API</a>
         </li>
         <li>
-          <a href="/management-api.html" {% if page.url == '/management-api.html' %}class="current"{% endif %}>Management API</a>
+          <a href="{{ site.baseurl}}management-api.html" {% if page.url == '/management-api.html' %}class="current"{% endif %}>Management API</a>
         </li>
         <li><a href="#">Examples</a></li>
       </ul>
