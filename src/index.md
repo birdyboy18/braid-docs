@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Introduction
+## Introduction - Delivery API
 
 Welcome to the braid documentation. The first part of the docs will explain to you how to use the delivery API, the resources that are available to you and the URL Parameters that are made available in order to access the information you want from Braid.
 
@@ -610,5 +610,7 @@ Lucky for us we managed to find one that did match our term 'javascript'.
 }
 
 {% endhighlight %}
+
+## Finished
 
 Thats all there is at the moment for the Braid Delivery API, If you'd like to see it in use then make sure to click [examples]() at the top. If your interesting in how to manage content in Braid then be sure to checkout the [Management API](/management-api.html).

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Introduction
+## Introduction - Management API
 
 Welcome to the braid documentation. The first part of the docs will explain to you how to use the Management API, the resources that are available to you and the type of requests you can make to manage content.
 
@@ -352,7 +352,7 @@ It's possible to update threads, when you do, it's reccomended you only update, 
 
 {% highlight html %}
 
-	DELETE 'http://getbraid.io/api/management/v1/thread/?braidId=:braid_id'
+	DELETE 'http://getbraid.io/api/management/v1/thread/:thread_id'
 
 {% endhighlight %}
 
