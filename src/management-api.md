@@ -20,7 +20,7 @@ Anything after that will be a resource. To see what resources are available and 
 
 ### Making Requests
 
-In order to make requests, you must first have a user account and know it’s username and password. Every route and resource is authenticated via Basic Auth and your username and password is needed on every request to the management API. If you simply want to query data then please use the [Delivery API](/docs), it was made for that very reason and doesn’t require any authentication to use.
+In order to make requests, you must first have a user account and know it’s username and password. Every route and resource is authenticated via Basic Auth and your username and password is needed on every request to the management API. If you simply want to query data then please use the [Delivery API]({{site.baseurl}}), it was made for that very reason and doesn’t require any authentication to use.
 
 Once your request is authenticated it is checked to see if you are authorised for the action you are trying to perform. If you are not authorized to perform that action then you shall receive a 403 forbidden.
 
@@ -382,7 +382,7 @@ When creating a modifier there are certain required fields to make one. They are
 - slug
 - slug_plural
 
-The type and slug is important, because later on these are used in the [Delivery API](/). To allow you to query entries based on the slug and any terms you have added.
+The type and slug is important, because later on these are used in the [Delivery API]({{site.baseurl}}). To allow you to query entries based on the slug and any terms you have added.
 
 To make it easier, lets make a modifier for catlover72
 
@@ -636,8 +636,8 @@ To stop an entry from appearing in results, there is a handy active property. If
 
 ## Finished
 
-Thank you for reading the documentation for the Management API, I really hope it's useful. if you were wondering how to `GET` data then please refer to the [Delivery API](/). 
+Thank you for reading the documentation for the Management API, I really hope it's useful. if you were wondering how to `GET` data then please refer to the [Delivery API]({{ site.baseurl}}). 
 
 If you like the looks of braid and want to try it out then feel free to head over to [getbraid.io](http://getbraid.io) and signup. 
 
-If you want to see it doing its magic then please check out the [example](#).
+If you want to see it doing its magic then please check out the [example]({{ site.baseurl }}/youtube-example).

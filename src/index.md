@@ -22,7 +22,7 @@ The API also has generic query parameters available on all requests which will h
 
 ### Making Requests
 
-The API will only accept ```GET``` requests. If you want to manage or edit your content, then you're going to need to use the [Management API]('/management-api.html').
+The API will only accept ```GET``` requests. If you want to manage or edit your content, then you're going to need to use the [Management API]({{ site.baseurl }}/management-api.html).
 
 When the data is returned it will always return JSON as this is one of the most popular way of presenting data. There isn’t currently anyway of returning XMl or other data formats. No jsonp callback is provided either.
 
@@ -613,4 +613,4 @@ Lucky for us we managed to find one that did match our term 'javascript'.
 
 ## Finished
 
-Thats all there is at the moment for the Braid Delivery API, If you'd like to see it in use then make sure to click [examples]() at the top. If your interesting in how to manage content in Braid then be sure to checkout the [Management API](/management-api.html).
+Thats all there is at the moment for the Braid Delivery API, If you'd like to see it in use then make sure to click [examples]({{ site.baseurl }}/youtube-example) at the top. If your interesting in how to manage content in Braid then be sure to checkout the [Management API]({{ site.baseulr }}/management-api.html).
